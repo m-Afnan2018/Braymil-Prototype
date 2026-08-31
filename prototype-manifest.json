@@ -1,0 +1,28 @@
+{
+  "entrypoint": "index.html",
+  "main_pages": [
+    "index.html",
+    "products.html",
+    "braymil-1.html"
+  ],
+  "product_pages": [
+    "braymil-1.html",
+    "braymil-2.html",
+    "braymil-3.html",
+    "premium-1-pack.html",
+    "premium-1-tin.html",
+    "premium-2.html",
+    "premium-3.html",
+    "lactose-free.html",
+    "aaf.html",
+    "preterm.html",
+    "milk-fortifier.html",
+    "mct-oil.html",
+    "grow-chocolate.html",
+    "grow-vanilla.html",
+    "mom-chocolate.html",
+    "mom-vanilla.html"
+  ],
+  "accent": "#00CCBF",
+  "missing_local_links": []
+}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.cookiestatus .cookie-block #cookie_message { opacity: 0; visibility: hidden; }
+
+.cookiestatus .cookie-block #cookie_message.se-cookies-message-open { opacity: 1; visibility: visible; }
+
+.cookiestatus .cookie-block.full_bottom { float: left; width: 100%; }
+
+.cookiestatus .cookie-block.full_bottom #cookie_message { padding: 10px; text-align: center; box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 5px; font-size: 12px; float: left; width: 100%; }
+
+.cookiestatus .cookie-block.bottom_fix #cookie_message, .cookiestatus .cookie-block.bottom_to_left #cookie_message, .cookiestatus .cookie-block.bottom_to_right #cookie_message { padding: 30px; position: fixed; float: none; display: inline-block; inset: auto auto 10px 10px; width: 400px; box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 15px; z-index: 2; background: var(--black); color: var(--white); }
+
+.cookiestatus .cookie-block.bottom_fix #cookie_message { width: 100%; padding: 10px; text-align: center; bottom: 0px; left: 0px; right: 0px; }
+
+.cookiestatus .cookie-block.bottom_to_right #cookie_message { right: 10px; left: auto; }
+
+.cookiestatus .cookie-block #cookie_message > span { font-size: 16px; line-height: 20px; }
+
+.cookiestatus .cookie-block.bottom_fix .c_link, .cookiestatus .cookie-block.full_bottom .c_link { margin: 0px 0px 0px 10px; }
+
+.cookiestatus .cookie-block.bottom_to_right #cookie_message > span, .cookiestatus .cookie-block.bottom_to_left #cookie_message > span { float: left; width: 100%; margin: 0px 0px 15px; }
+
+.product-form__error-message-wrapper--hidden { display: none; }
+
+@media only screen and (max-width: 543px) {
+  .cookiestatus .cookie-block.bottom_fix #cookie_message, .cookiestatus .cookie-block.bottom_to_left #cookie_message, .cookiestatus .cookie-block.bottom_to_right #cookie_message { padding: 15px; width: 280px; }
+}

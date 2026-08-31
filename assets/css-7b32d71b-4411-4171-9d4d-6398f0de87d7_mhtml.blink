@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.jdgm-rev__icon::after { content: ""; }
+
+.jdgm-rev__icon::after, .jdgm-rev__buyer-badge { display: inline-block; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); }
+
+.jdgm-rev__buyer-badge::before { content: "Verified"; }
+
+.jdgm-rev-widg__title { visibility: unset; }
+
+.jdgm-rev-widg__summary-text { visibility: unset; }
+
+.jdgm-prev-badge__text { visibility: unset; }
+
+.jdgm-quest__body::before { content: "Question:"; }
+
+.jdgm-ans__body::before { content: "Answer:"; }
+
+.jdgm-star { color: rgb(16, 132, 116); }
+
+.jdgm-ask-question-btn, .jdgm-write-rev-link, .jdgm-all-reviews-rating-wrapper, .jdgm-carousel-wrapper a, .jdgm-rev__prod-link, .jdgm-all-reviews-text a, .jdgm-carousel-item__product, .jdgm-carousel-number-of-reviews, .jdgm-revs-tab__url { color: rgb(0, 0, 0); }
+
+a.jdgm-write-rev-link { color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); }
+
+.jdgm-preview-badge .jdgm-star { color: rgb(16, 132, 116); }
+
+.jdgm-histogram .jdgm-star { color: rgb(16, 132, 116); }

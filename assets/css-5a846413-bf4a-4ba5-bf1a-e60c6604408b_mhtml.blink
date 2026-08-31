@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#shopify-section-template--26373206540609__166357255109ff5dc3 .hero-heading { color: rgb(0, 204, 191); }
+
+#shopify-section-template--26373206540609__166357255109ff5dc3 .para { color: white; }
+
+#shopify-section-template--26373206540609__166357255109ff5dc3 .offer { color: white; }
+
+#shopify-section-template--26373206540609__166357255109ff5dc3 .slick-dots { display: none !important; }
+
+#shopify-section-template--26373206540609__166357255109ff5dc3 .owl-dots { display: none !important; }
+
+#shopify-section-template--26373206540609__166357255109ff5dc3 .home-main-slider .dot, #shopify-section-template--26373206540609__166357255109ff5dc3 .home-main-slider .slider-indicators { display: none !important; }

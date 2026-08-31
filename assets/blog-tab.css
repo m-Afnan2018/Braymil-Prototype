@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.blog-filter-bar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px; margin: 40px 0px; }
+
+.blog-title { font-size: 26px; font-weight: 600; margin: 0px; }
+
+.blog-tabs { display: flex; align-items: center; gap: 25px; flex-wrap: wrap; }
+
+.tab-link { font-size: 14px; text-decoration: none; position: relative; transition: 0.3s; }
+
+.tab-link:hover, .tab-link.active { color: rgb(0, 184, 148); }
+
+.tab-link.active { font-weight: 500; }
+
+.tab-link.active::after { content: ""; position: absolute; left: 0px; bottom: 0px; width: 100%; height: 2px; background: rgb(0, 184, 148); }
+
+.read-more-btn { background: rgb(0, 184, 148); padding: 6px 16px; border-radius: 20px; font-size: 13px; text-decoration: none; margin-left: 10px; white-space: nowrap; color: rgb(255, 255, 255) !important; }
+
+.read-more-btn:hover { background: rgb(0, 158, 127); }
+
+@media (max-width: 768px) {
+  .blog-filter-bar { flex-direction: column; align-items: flex-start; }
+  .blog-tabs { width: 100%; overflow-x: auto; flex-wrap: nowrap; gap: 20px; }
+  .blog-tabs::-webkit-scrollbar { display: none; }
+  .tab-link { flex: 0 0 auto; }
+}

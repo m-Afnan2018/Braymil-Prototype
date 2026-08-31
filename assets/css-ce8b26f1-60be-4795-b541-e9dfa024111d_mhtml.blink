@@ -1,0 +1,3 @@
+@charset "utf-8";
+
+:root { --second-font: Josefin Sans; --first-font: Josefin Sans, serif; --theme-color: #007d75; --second-color: #00a399; --white: #ffffff; --black: #000000; --border-color: #dddddd; --h1: normal 600 36px/1.1 var(--second-font); --h2: normal 600 30px/1.1 var(--second-font); --h3: normal 600 26px/1.1 var(--second-font); --h4: normal 600 22px/1.1 var(--second-font); --h5: normal 600 20px/1.1 var(--second-font); --h6: normal 600 18px/1.1 var(--second-font); --common-text: normal 400 14px/1.4 var(--second-font); }

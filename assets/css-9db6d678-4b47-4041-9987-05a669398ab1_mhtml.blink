@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+#shopify-section-template--26373206540609__1d9d8a75-7b9d-4d6e-93d5-4817c312a614 .image-spotlight { background-color: rgb(248, 248, 248); width: 100%; }
+
+#shopify-section-template--26373206540609__1d9d8a75-7b9d-4d6e-93d5-4817c312a614 .image-spotlight__layouts.in-viewport .image-spotlight__list .image-spotlight__item .image-spotlight__item-animation-6 { max-height: 100%; }

@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.head { color: rgb(0, 204, 191); padding-top: 30px; }
+
+.subhead { padding-top: 20px; padding-bottom: 20px; font-size: 20px; }
+
+.hero__description h2, .hero__description h3 { margin-top: 1em; margin-bottom: 0.5em; }
+
+.hero__description p { margin-bottom: 1em; }
+
+.hero__description ul { margin-bottom: 1em; padding-left: 1.5em; }
+
+.hero__description ul li { margin-bottom: 0.5em; }
+
+.hero__description { font-size: 15px; }
+
+.shopify-policy__title { margin-top: 80px; }
+
+p:not(:last-of-type) { margin-bottom: 15px; margin-top: 25px; }
+
+.rte { margin-bottom: 100px; }
+
+html, body { overflow-x: hidden; }

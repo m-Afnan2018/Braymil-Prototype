@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.logo-slider { overflow: hidden; width: 100%; position: relative; margin: 40px 0px; }
+
+.logo-track { display: flex; width: max-content; animation: 25s linear 0s infinite normal none running scroll; }
+
+.logo-item { flex: 0 0 auto; margin: 0px 5px; }
+
+.logo-item img { width: 70%; height: auto; display: block; }
+
+@keyframes scroll { 
+  0% { transform: translateX(0px); }
+  100% { transform: translateX(-50%); }
+}
+
+.logo-slider:hover .logo-track { animation-play-state: paused; }

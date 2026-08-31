@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+.MilanoteDrawer .Button { background: rgb(244, 81, 28); border: 0px; border-radius: 4px; color: rgb(255, 255, 255); cursor: pointer; font-family: Inter, Helvetica, Arial, sans-serif; font-size: 1em; font-weight: 600; margin: 0px; outline: 0px; padding: 10px 0px; text-decoration: none; }
+
+.MilanoteDrawer .Button:disabled { opacity: 0.9; }
+
+.MilanoteDrawer .LinkButton { background: none; border: 0px; color: rgb(244, 81, 28); cursor: pointer; font-size: 1em; outline: 0px; text-decoration: underline; }
+
+.BoardPickerButton.Button { align-items: stretch; color: rgb(255, 255, 255); display: flex; padding: 0px; position: relative; transition: background 0.12s linear; width: 100%; }
+
+.BoardPickerButton.Button .primary-button { border-right: 1px solid rgba(255, 255, 255, 0.3); flex-grow: 1; overflow: hidden; padding: 11px 20px 12px; text-align: center; transform: translateZ(0px); transition: opacity 0.07s linear, transform 0.07s linear; }
+
+.BoardPickerButton.Button .primary-button .SaveBoardText { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.BoardPickerButton.Button .primary-button .board-title { font-weight: 600; }
+
+.BoardPickerButton.Button .dropdown-button { align-items: center; display: flex; justify-content: center; padding: 0px; transition: opacity 0.07s linear; width: 40px; }
+
+.BoardPickerButton.Button .saved-text { align-items: center; display: flex; height: 100%; justify-content: center; opacity: 0; pointer-events: none; position: absolute; transform: translate3d(-20px, 0px, 0px); transition: opacity 0.07s linear, transform 0.07s linear; width: 100%; }
+
+.BoardPickerButton.Button .saved-text .text { font-weight: 600; margin-left: 7px; }
+
+.BoardPickerButton.Button .saved-text .Tick { fill: rgb(255, 255, 255); }
+
+.BoardPickerButton.Button.hide-dropdown-button .dropdown-button { opacity: 0; }
+
+.BoardPickerButton.Button.hide-dropdown-button .primary-button { border-right: 0px; opacity: 0; transform: translate3d(20px, 0px, 0px); }
+
+.BoardPickerButton.Button.change-color { background: rgb(78, 184, 90); }
+
+.BoardPickerButton.Button.show-saved .saved-text { opacity: 1; transform: translateZ(0px); }
+
+.ElementIcon { --element-icon-color: $palette-charcoal-950; }
+
+.ElementIcon svg { height: 100% !important; width: 100% !important; }
+
+.ElementIcon .Icon { margin: auto; }
+
+.ElementIcon .Icon.StringIcon { align-items: center; color: var(--element-icon-color); display: flex; font-family: Inter, Helvetica, Arial, sans-serif; font-size: 18px; height: 100%; justify-content: center; text-align: center; width: 100%; }
+
+.ElementIcon .Icon.StringIcon .string-icon-1 { font-size: 1em; }
+
+.ElementIcon .Icon.StringIcon .string-icon-2, .ElementIcon .Icon.StringIcon .string-icon-3 { font-size: 0.5em; font-weight: 700; }
+
+.ElementIcon .Icon.StringIcon .string-icon-4 { display: flex; flex-wrap: wrap; font-size: 0.5em; font-weight: 700; line-height: 1em; width: 2em; }
+
+.ElementIcon .Icon.StringIcon .string-icon-4 span { display: inline-block; width: 1em; }
+
+.BoardImage { height: 32px; overflow: hidden; position: relative; width: 32px; }
+
+.BoardImage img { border-radius: 7px; object-fit: cover; width: 100%; }
+
+@keyframes spin { 
+  0% { transform: perspective(120px) rotateY(0deg); }
+  100% { transform: perspective(120px) rotateY(1turn); }
+}
+
+.MilanoteDrawer .MilanoteLogo .logo-spinner-icon { perspective-origin: 50% 50%; transform-origin: 50% 50%; }
+
+.MilanoteDrawer .MilanoteLogo .logo-spinner-icon.animate { animation: 1.5s cubic-bezier(0.35, 0.27, 0.6, 0.7) 0s infinite normal none running spin; }
+
+.BoardIcon { position: relative; }
+
+.BoardIcon .board-icon-content { align-items: center; background: rgb(203, 206, 210); border-radius: 7px; display: flex; height: 32px; justify-content: center; overflow: hidden; position: relative; width: 32px; }
+
+.BoardIcon .board-icon-content .ElementIcon { cursor: default; --element-icon-color: $white; }
+
+.BoardIcon .board-icon-content .ElementIcon .Icon.StringIcon { color: var(--element-icon-color); height: 100%; width: 100%; }
+
+.BoardIcon .board-icon-content .ElementIcon .Icon.DefaultIcon, .BoardIcon .board-icon-content .ElementIcon .Icon.SVGIcon { height: 16px; width: 16px; }
+
+.BoardIcon .board-icon-content .ElementIcon .Icon.DefaultIcon svg path, .BoardIcon .board-icon-content .ElementIcon .Icon.SVGIcon svg path { fill: var(--element-icon-color); }
+
+.BoardIcon.is-dark .board-icon-content .ElementIcon { --element-icon-color: $black; --element-icon-blend-mode: normal; --element-icon-opacity: 1; }
+
+.BoardIcon.is-dark .board-icon-content .ElementIcon .Icon.StringIcon { color: rgb(255, 255, 255); }
+
+.BoardIcon.is-dark .board-icon-content .ElementIcon .Icon.DefaultIcon svg path, .BoardIcon.is-dark .board-icon-content .ElementIcon .Icon.SVGIcon svg path { fill: rgb(255, 255, 255); }
+
+.BoardPickerPopupOption { align-items: center; border-top: 1px solid rgb(235, 235, 237); cursor: pointer; display: flex; font-size: 12px; font-weight: 600; height: 48px; justify-content: space-between; line-height: 20px; user-select: none; }
+
+.BoardPickerPopupOption:hover { background: rgb(249, 249, 249); }
+
+.BoardPickerPopupOption.selected { background: rgb(243, 243, 244); }
+
+.BoardPickerPopupOption .board-details { align-items: center; display: flex; }
+
+.BoardPickerPopupOption .board-details .title { max-width: 240px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.BoardPickerPopupOption .board-details .board-icon { padding-left: 24px; }
+
+.BoardPickerPopupOption .board-details .title { padding-left: 9px; }
+
+.BoardPickerPopupOption .Tick { margin-right: 22px; }
+
+.BoardPickerPopupOption .Tick path { fill: rgb(50, 59, 74); }
+
+.BoardPickerPopup { z-index: 1; }
+
+.BoardPickerPopup::after, .BoardPickerPopup::before { border: solid transparent; content: ""; height: 0px; pointer-events: none; position: absolute; width: 0px; z-index: 1; }
+
+.BoardPickerPopup::after { border-top-color: rgb(255, 255, 255); border-width: 6px; bottom: -1px; right: 13px; }
+
+.BoardPickerPopup::before { border-width: 7px; bottom: -3px; right: 12px; }
+
+.BoardPickerPopup .popup-list { overflow-y: auto; }
+
+.BoardPickerPopup .popup-list::-webkit-scrollbar, .BoardPickerPopup .popup-list::-webkit-scrollbar:hover { height: 4px; width: 4px; }
+
+.BoardPickerPopup .popup-list::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.1); }
+
+.BoardPickerPopup .popup-list::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.4); border-radius: 10px; }
+
+.BoardPickerPopup .popup-list { background: rgb(255, 255, 255); border-radius: 3px; bottom: 10px; box-shadow: rgba(50, 59, 74, 0.2) 0px 11px 15px -7px, rgba(50, 59, 74, 0.12) 0px 9px 46px 8px, rgba(50, 59, 74, 0.14) 0px 24px 38px 3px; left: 0px; max-height: 50vh; position: absolute; width: 100%; }
+
+.BoardPickerPopup .BoardPickerPopupOption:first-of-type { border-top: 0px; }
+
+.BoardPicker .popup-overlay { inset: 0px; opacity: 0; position: absolute; }
+
+.BoardPicker .popup-container { position: relative; }
+
+.MilanoteDrawer .ExtensionContent { padding: 16px; }
+
+.MilanoteDrawer .ExtensionContent.message { align-items: center; border-bottom: 0px; color: rgb(50, 59, 74); display: flex; flex-direction: column; justify-content: center; line-height: 25px; min-height: 240px; padding: 20px 50px; }
+
+.MilanoteDrawer .ExtensionContent.message .Icon { margin: 10px 0px 16px; }
+
+.MilanoteDrawer .ExtensionContent.message .LinkButton { margin: 5px 0px 10px; }
+
+.MilanoteDrawer .ExtensionContent.message .LinkButton.secondary { color: rgb(141, 146, 154); font-family: Inter, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 400; margin: 0px 0px 10px; }
+
+.MilanoteDrawer .ExtensionContent.message .Button { margin-top: 10px; padding: 10px 20px; }
+
+.MilanoteDrawer .ExtensionContent.message .message { font-size: 15px; font-weight: 600; margin-top: 20px; text-align: center; }
+
+@keyframes loader { 
+  0% { transform: translateZ(0px); }
+  100% { transform: translate3d(0px, -5280px, 0px); }
+}
+
+.LogoSpinner.fade-appear, .LogoSpinner.fade-enter, .LogoSpinner.fade-leave.fade-leave-active { opacity: 0; }
+
+.LogoSpinner.fade-appear.fade-appear-active, .LogoSpinner.fade-enter.fade-enter-active, .LogoSpinner.fade-leave { opacity: 1; }
+
+.LogoSpinner.fade-appear.fade-appear-active, .LogoSpinner.fade-enter.fade-enter-active, .LogoSpinner.fade-leave.fade-leave-active { transition: opacity 0.3s ease-in; }
+
+.LogoSpinner { align-items: center; display: flex; height: 54px; justify-content: center; width: 54px; }
+
+.LogoSpinner .faded-logo { stroke-linecap: round; stroke-linejoin: round; stroke-width: 3; }
+
+.LogoSpinner .animation-container { height: 24px; overflow: hidden; width: 24px; }
+
+.LogoSpinner .animation-container .animation-frame { animation: 3.66667s steps(220) 0s infinite normal none running loader; transform: translateZ(0px); }
+
+.ExtensionRoot { background: rgb(235, 237, 238); color: rgb(50, 59, 74); font-family: Inter, Helvetica, Arial, sans-serif; font-size: 14px; text-rendering: optimizelegibility; width: 372px; -webkit-font-smoothing: antialiased; }
+
+.ExtensionRoot * { box-sizing: border-box; }
+
+.ExtensionRoot .extension-footer { border-top: 1px solid rgb(217, 219, 222); padding: 16px; }
+
+.MilanoteDrawer .RemoveElementButton { align-items: center; border-radius: 50%; color: rgb(255, 255, 255); display: flex; justify-content: center; position: absolute; right: -8px; top: -8px; }
+
+.MilanoteDrawer .Caption { color: rgb(72, 80, 94); font-size: 12px; line-height: 20px; margin: 0px 24px; padding: 20px 0px; overflow-wrap: break-word; }
+
+.MilanoteDrawer .Caption a { color: rgb(244, 81, 28); }
+
+.MilanoteDrawer .Caption a:focus { outline: none; }
+
+.MilanoteDrawer .ImageLinkElement { font-size: 0px; line-height: 0; width: 100%; }
+
+.MilanoteDrawer .ImageLinkElement .ImageLinkElementImage { width: 100%; }
+
+.MilanoteDrawer .ImageLinkElement .ImageLinkElementImage.loading { display: none; }
+
+.MilanoteDrawer .ImageLinkElement .Caption { border-top: 0px; }
+
+.MilanoteDrawer .ImageLinkElement.loading { background: rgb(244, 245, 245); }
+
+.TextSelectionElement { width: 100%; }
+
+.TextSelectionElement .text { line-height: 20px; margin: 0px; padding: 20px 24px 2px; }
+
+.MilanoteDrawer .PageLinkHeader { place-content: center flex-start; display: flex; padding: 24px 24px 0px; }
+
+.MilanoteDrawer .PageLinkHeader .LinkIcon, .MilanoteDrawer .PageLinkHeader .favicon { height: 16px; min-width: 16px; width: 16px; }
+
+.MilanoteDrawer .PageLinkHeader .url { color: rgb(141, 146, 154); flex-grow: 1; font-size: 12px; margin-left: 8px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.MilanoteDrawer .PageLinkMedia { font-size: 0px; }
+
+.MilanoteDrawer .PageLinkMedia .image img { font-size: 0px; height: 192px; object-fit: cover; width: 100%; }
+
+.MilanoteDrawer .TitleLink { color: rgb(244, 81, 28); font-size: 15px; font-weight: 600; line-height: 20px; margin-bottom: -9px; padding: 10px 24px 0px; text-decoration: underline; }
+
+.MilanoteDrawer .PageLinkElement { width: 100%; }
+
+.MilanoteDrawer .PageLinkElement.loading { align-items: center; display: flex; flex-direction: column; justify-content: center; min-height: 250px; }
+
+.MilanoteDrawer .PageLinkElement.loading .loading-message { color: rgb(141, 146, 154); margin-top: 12px; }
+
+.MilanoteDrawer .PageLinkElement.no-caption { padding-bottom: 33px; }
+
+.MilanoteDrawer .Element { background: rgb(255, 255, 255); box-shadow: rgba(50, 59, 74, 0.15) 0px 1px 3px 0px; position: relative; }
+
+.MilanoteDrawer .Element .error-message { align-items: center; background: rgb(50, 59, 74); color: rgb(255, 255, 255); display: flex; font-size: 12px; font-weight: 600; height: 48px; justify-content: center; width: 100%; }
+
+.PinnedElementList .Element { margin-bottom: 8px; }
+
+.PinnedElementList .Element:last-of-type { margin-bottom: 0px; }
+
+.MilanoteDrawer { background: rgb(235, 237, 238); box-shadow: rgba(50, 59, 74, 0.2) 0px 3px 5px -1px, rgba(50, 59, 74, 0.12) 0px 1px 18px 0px, rgba(50, 59, 74, 0.14) 0px 6px 10px 0px; position: fixed; right: 0px; top: 10px; transform: translateZ(0px); transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); width: 372px; z-index: 9999999; }
+
+.MilanoteDrawer.closed { transform: translate3d(372px, 0px, 0px); }
+
+.MilanoteDrawer .ExtensionContent { overflow-y: auto; }
+
+.MilanoteDrawer .ExtensionContent::-webkit-scrollbar, .MilanoteDrawer .ExtensionContent::-webkit-scrollbar:hover { height: 4px; width: 4px; }
+
+.MilanoteDrawer .ExtensionContent::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.1); }
+
+.MilanoteDrawer .ExtensionContent::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.4); border-radius: 10px; }
+
+.MilanoteDrawer .ExtensionContent { max-height: calc(-150px + 100vh); min-height: 70px; }

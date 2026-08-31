@@ -1,0 +1,418 @@
+[
+  {
+    "slug": "braymil-1",
+    "title": "Braymil Stage 1 Infant Formula",
+    "subtitle": "Infant Formula • 0 to 6 months",
+    "price": "491",
+    "reviews": 8,
+    "pack": "400 g",
+    "age": "Birth to 6 months",
+    "category": "Stage 1 Infant Formula",
+    "image": "braymil-1-infant-formula-stage-1-upto-6-months-400-gm-tin-pack-4893554.png",
+    "desc": "Braymil 1 is a stage 1 infant formula specially developed for babies from birth to 6 months, with balanced nutrition and a 60:40 whey-casein ratio.",
+    "features": [
+      "60:40 whey-casein ratio",
+      "ALA & LA",
+      "Iron & choline",
+      "Vitamins & minerals"
+    ],
+    "benefits": [
+      "Supports early growth",
+      "Supports brain & visual development",
+      "Designed for gentle digestion",
+      "Supports daily nutritional needs"
+    ],
+    "use": "Use only under the guidance of a healthcare professional. Prepare exactly as instructed on the pack using safe water and clean, sterilized feeding equipment.",
+    "notice": "Mother’s milk is best for your baby. Infant formula should be used only on the advice of a healthcare professional."
+  },
+  {
+    "slug": "braymil-2",
+    "title": "Braymil 2 Follow Up Formula",
+    "subtitle": "Stage 2 • 6 to 12 months",
+    "price": "500",
+    "reviews": 18,
+    "pack": "400 g",
+    "age": "6 to 12 months",
+    "category": "Follow Up Formula",
+    "image": "braymil-2-follow-up-formula-stage-2-from-6-to-12-months-400-gm-tin-pack-3138383.png",
+    "desc": "Braymil 2 is a follow-up formula developed for babies after 6 months, providing balanced nutrition alongside complementary foods.",
+    "features": [
+      "DHA & ARA",
+      "Whey protein",
+      "GOS & FOS",
+      "Calcium, iron & zinc"
+    ],
+    "benefits": [
+      "Supports growth",
+      "Supports brain & eye development",
+      "Prebiotics for digestive support",
+      "Supports bone and immune nutrition"
+    ],
+    "use": "Use alongside age-appropriate complementary foods and only as advised by a healthcare professional. Follow pack preparation directions carefully.",
+    "notice": "Mother’s milk is best for your baby. Follow-up formula should be used as part of a diversified diet and under appropriate guidance."
+  },
+  {
+    "slug": "braymil-3",
+    "title": "Braymil 3 Follow Up Formula",
+    "subtitle": "Stage 3 • 12 to 24 months",
+    "price": "500",
+    "reviews": 3,
+    "pack": "400 g",
+    "age": "12 to 24 months",
+    "category": "Growing Up Formula",
+    "image": "braymil-3-follow-up-formula-stage-3-400g-tin-pack-3113602.png",
+    "desc": "Braymil 3 is a growing-up formula for toddlers aged 12 to 24 months, developed to support increasing nutritional needs during active growth.",
+    "features": [
+      "Protein blend",
+      "Essential fatty acids",
+      "Vitamins",
+      "Minerals"
+    ],
+    "benefits": [
+      "Supports healthy growth",
+      "Supports learning and development",
+      "Supports immunity",
+      "Supports digestive nutrition"
+    ],
+    "use": "Serve as part of a varied, balanced diet. Follow the preparation and serving instructions printed on the product pack.",
+    "notice": "For children 12 months and above. Use as part of a varied diet; consult your child’s healthcare professional when needed."
+  },
+  {
+    "slug": "premium-1-pack",
+    "title": "Braymil Premium 1 Formula",
+    "subtitle": "Premium Stage 1 • 0 to 6 months",
+    "price": "635",
+    "reviews": 19,
+    "pack": "400 g",
+    "age": "Birth to 6 months",
+    "category": "Premium Infant Formula",
+    "image": "Braymil_Premium_1_BIB_Comparison_1.webp",
+    "desc": "Braymil Premium 1 is a Stage 1 infant formula for birth to 6 months with DHA, ARA, whey protein, prebiotics, vitamins and minerals.",
+    "features": [
+      "DHA & ARA",
+      "65:35 whey-casein ratio",
+      "GOS & FOS",
+      "Nucleotides"
+    ],
+    "benefits": [
+      "Supports early growth",
+      "Supports brain & visual development",
+      "Prebiotic digestive support",
+      "Supports immune nutrition"
+    ],
+    "use": "Use only under healthcare professional guidance. Prepare one feed at a time according to the pack directions and discard leftover feed.",
+    "notice": "Mother’s milk is best for your baby. Infant formula should be used only on the advice of a healthcare professional."
+  },
+  {
+    "slug": "premium-1-tin",
+    "title": "Braymil Premium 1 Infant Formula",
+    "subtitle": "Premium Stage 1 • 0 to 6 months",
+    "price": "653",
+    "reviews": 110,
+    "pack": "400 g",
+    "age": "Birth to 6 months",
+    "category": "Premium Infant Formula",
+    "image": "Infant_formula_stage_1_Braymil.webp",
+    "desc": "Braymil Premium 1 is a premium infant formula for babies from birth to 6 months, formulated with DHA, ARA, whey protein, prebiotics and micronutrients.",
+    "features": [
+      "DHA & ARA",
+      "Whey protein",
+      "GOS & FOS",
+      "Vitamins & minerals"
+    ],
+    "benefits": [
+      "Supports growth",
+      "Supports brain & eye development",
+      "Designed for digestive comfort",
+      "Supports complete early nutrition"
+    ],
+    "use": "Use only under healthcare professional guidance. Follow the exact preparation, hygiene and storage directions on the label.",
+    "notice": "Mother’s milk is best for your baby. Infant formula should be used only on the advice of a healthcare professional."
+  },
+  {
+    "slug": "premium-2",
+    "title": "Braymil Premium 2 Follow Up Formula",
+    "subtitle": "Premium Stage 2 • 6 to 12 months",
+    "price": "662",
+    "reviews": 8,
+    "pack": "400 g",
+    "age": "6 to 12 months",
+    "category": "Premium Follow Up Formula",
+    "image": "Braymil-Premium-2-old-vs-new-pack.webp",
+    "desc": "Braymil Premium 2 is a premium Stage 2 follow-up formula for babies aged 6 to 12 months, with DHA, ARA, whey protein, GOS, FOS, vitamins and minerals.",
+    "features": [
+      "DHA & ARA",
+      "Whey protein",
+      "GOS & FOS",
+      "Vitamins & minerals"
+    ],
+    "benefits": [
+      "Supports growth",
+      "Supports brain development",
+      "Supports digestive nutrition",
+      "Supports immunity and bone nutrition"
+    ],
+    "use": "Use alongside complementary foods and under appropriate healthcare guidance. Follow label preparation directions exactly.",
+    "notice": "Mother’s milk is best for your baby. Follow-up formula is intended for older infants as part of a diversified diet."
+  },
+  {
+    "slug": "premium-3",
+    "title": "Braymil Premium 3 Follow Up Formula",
+    "subtitle": "Premium Stage 3 • 12 months+",
+    "price": "662",
+    "reviews": 4,
+    "pack": "400 g",
+    "age": "12 months and above",
+    "category": "Premium Growing Up Formula",
+    "image": "Follow_up_formula_stage_3_Braymil.webp",
+    "desc": "Braymil Premium 3 is a follow-up formula for children 12 months and above, enriched with DHA, ARA, whey protein, prebiotics, vitamins and minerals.",
+    "features": [
+      "DHA & ARA",
+      "Whey protein",
+      "Prebiotics",
+      "Vitamins & minerals"
+    ],
+    "benefits": [
+      "Supports healthy growth",
+      "Supports brain development",
+      "Supports digestion",
+      "Supports bone and immune nutrition"
+    ],
+    "use": "Use as part of a varied and balanced diet. Follow the preparation and serving directions on the product label.",
+    "notice": "For children 12 months and above. Use as part of a varied diet and consult a healthcare professional if you have feeding concerns."
+  },
+  {
+    "slug": "lactose-free",
+    "title": "Braymil LF Lactose-Free Formula",
+    "subtitle": "Specialized nutrition • 0 to 24 months",
+    "price": "662",
+    "reviews": 2,
+    "pack": "400 g",
+    "age": "0 to 24 months",
+    "category": "Lactose-Free Formula",
+    "image": "Braymil-lf-new-pack.webp",
+    "desc": "Braymil LF is a lactose-free formula for infants and toddlers aged 0–24 months, formulated for sensitive digestion with GOS, FOS, MCT and whey protein.",
+    "features": [
+      "Lactose-free formulation",
+      "GOS & FOS",
+      "MCT fats",
+      "Whey protein"
+    ],
+    "benefits": [
+      "Designed for lactose-sensitive nutrition",
+      "Supports digestive comfort",
+      "Supports growth",
+      "Provides vitamins and minerals"
+    ],
+    "use": "Specialized formula should be used under healthcare professional guidance. Follow the preparation instructions and age guidance on the pack.",
+    "notice": "Specialized infant nutrition should be selected with healthcare professional guidance. Mother’s milk is best for babies."
+  },
+  {
+    "slug": "aaf",
+    "title": "Braymil AAF Hypoallergenic Infant Formula",
+    "subtitle": "Amino acid-based specialized formula",
+    "price": "2,498",
+    "reviews": 0,
+    "pack": "400 g",
+    "age": "Specialized infant nutrition",
+    "category": "Amino Acid-Based Formula",
+    "image": "braymil-aaf-amino-acid-based-hypoallergenic-formula-400gm-6187636.png",
+    "desc": "Braymil AAF is an amino acid-based hypoallergenic formula developed for babies with cow milk protein allergy and severe food allergies.",
+    "features": [
+      "Amino acid-based",
+      "No cow milk protein",
+      "Soy-free",
+      "Gluten-free"
+    ],
+    "benefits": [
+      "Designed for allergy-prone infants",
+      "Supports safe nutritional intake",
+      "Supports growth",
+      "Supports digestive nutrition"
+    ],
+    "use": "Use only under direct medical or dietetic supervision. Follow the healthcare professional’s feeding plan and the product label exactly.",
+    "notice": "This is a specialized formula for medical nutritional needs. Use only under the supervision of a qualified healthcare professional."
+  },
+  {
+    "slug": "preterm",
+    "title": "Braymil Preterm Infant Formula",
+    "subtitle": "For preterm & low birth weight infants",
+    "price": "662",
+    "reviews": 3,
+    "pack": "400 g",
+    "age": "Preterm / low birth weight",
+    "category": "Preterm Formula",
+    "image": "braymil-pre-term-formula-ond_newpack.webp",
+    "desc": "Braymil Pre-Term Formula LBW is developed for premature and low birth weight infants with higher nutritional needs.",
+    "features": [
+      "MCT",
+      "Whey proteins",
+      "DHA & ARA",
+      "Essential micronutrients"
+    ],
+    "benefits": [
+      "Designed for catch-up nutrition",
+      "Supports healthy weight gain",
+      "Supports brain and visual nutrition",
+      "Supports energy and nutrient intake"
+    ],
+    "use": "Use only under neonatal or pediatric supervision. Feeding volume, concentration and duration must be determined by the healthcare team.",
+    "notice": "For specialized medical nutritional use in preterm or low birth weight infants. Use only under healthcare professional supervision."
+  },
+  {
+    "slug": "milk-fortifier",
+    "title": "Braymil MF Milk Fortifier",
+    "subtitle": "Fortifier for premature babies",
+    "price": "662",
+    "reviews": 5,
+    "pack": "20 sachets",
+    "age": "Premature / low birth weight infants",
+    "category": "Human Milk Fortifier",
+    "image": "BraymilMFMockup1.png",
+    "desc": "Braymil MF is a milk fortifier developed to enhance the nutritional value of expressed mother’s milk for premature and low birth weight infants.",
+    "features": [
+      "Protein",
+      "MCT",
+      "Calcium",
+      "Iron & micronutrients"
+    ],
+    "benefits": [
+      "Fortifies expressed breast milk",
+      "Supports higher nutrient density",
+      "Supports bone nutrition",
+      "Supports catch-up growth needs"
+    ],
+    "use": "Add only to expressed breast milk as directed by the neonatal healthcare team. Do not change concentration or frequency without medical instruction.",
+    "notice": "Human milk fortifier is a specialized product for premature infants. Use only under neonatal or pediatric supervision."
+  },
+  {
+    "slug": "mct-oil",
+    "title": "Braymil Infant MCT Oil",
+    "subtitle": "C8 + C10 medium-chain triglyceride oil",
+    "price": "374",
+    "reviews": 4,
+    "pack": "100 ml",
+    "age": "Infants & children with higher calorie needs",
+    "category": "MCT Oil",
+    "image": "braymil-mct-oil-100-ml-medium-chain-triglyceride-oil-for-medical-nutritional-use-easily-digestible-energy-source-3373579.jpg",
+    "desc": "Braymil MCT Oil is a C8/C10 medium-chain triglyceride oil designed to provide a concentrated, readily absorbed source of energy.",
+    "features": [
+      "C8 caprylic triglycerides",
+      "C10 capric triglycerides",
+      "Concentrated energy",
+      "Rapid absorption"
+    ],
+    "benefits": [
+      "Supports higher calorie intake",
+      "Provides easily absorbed fats",
+      "Supports clinical nutrition plans",
+      "Useful where rapid energy is required"
+    ],
+    "use": "Dosage and method of use should be set by a healthcare professional based on nutritional needs. Do not exceed the advised amount.",
+    "notice": "Use under healthcare professional or dietitian guidance, particularly for infants and children with medical nutritional needs."
+  },
+  {
+    "slug": "grow-chocolate",
+    "title": "Braymil Grow Chocolate",
+    "subtitle": "Kids growth milk drink • 2 to 6 years",
+    "price": "380",
+    "reviews": 4,
+    "pack": "200 g",
+    "age": "2 to 6 years",
+    "category": "Kids Nutrition",
+    "image": "braymil-grow-nutritious-chocolate-milk-drink-powder-for-toddlers-no-added-sucrose-enriched-with-dha-protein-essential-nutrients-200g-jar-pack-6646721.png",
+    "desc": "Braymil Grow Chocolate is a kids growth milk drink powder for children aged 2–6 years, with DHA, protein, calcium, vitamins and minerals.",
+    "features": [
+      "DHA",
+      "Protein",
+      "Calcium + Vitamin D",
+      "GOS & FOS"
+    ],
+    "benefits": [
+      "Supports healthy growth",
+      "Supports brain nutrition",
+      "Supports bone nutrition",
+      "Zero added sucrose"
+    ],
+    "use": "Prepare and serve according to the pack directions as part of a balanced diet. Adjust overall diet to the child’s age and nutritional needs.",
+    "notice": "For children 2–6 years. This product is not a substitute for a varied and balanced diet."
+  },
+  {
+    "slug": "grow-vanilla",
+    "title": "Braymil Grow Vanilla",
+    "subtitle": "Kids growth milk drink • 2 to 6 years",
+    "price": "380",
+    "reviews": 1,
+    "pack": "200 g",
+    "age": "2 to 6 years",
+    "category": "Kids Nutrition",
+    "image": "braymil-grow-nutritious-vanilla-milk-drink-powder-enriched-with-dha-protein-essential-nutrients-200-g-8290509.png",
+    "desc": "Braymil Grow Vanilla is a kids growth milk drink powder for children aged 2–6 years, formulated with DHA, protein, calcium, prebiotics, vitamins and minerals.",
+    "features": [
+      "DHA",
+      "Protein",
+      "Calcium + Vitamin D",
+      "Prebiotics"
+    ],
+    "benefits": [
+      "Supports growth",
+      "Supports brain and eye nutrition",
+      "Supports bone nutrition",
+      "Zero added sucrose"
+    ],
+    "use": "Prepare and serve according to the pack directions as part of a balanced diet. Use age-appropriate serving sizes.",
+    "notice": "For children 2–6 years. This product is not a substitute for a varied and balanced diet."
+  },
+  {
+    "slug": "mom-chocolate",
+    "title": "Braysure Mom Chocolate",
+    "subtitle": "Maternal nutrition • Pregnancy & lactation",
+    "price": "380",
+    "reviews": 1,
+    "pack": "200 g",
+    "age": "Pregnancy & lactation",
+    "category": "Maternal Nutrition",
+    "image": "braysure-mom-chocolate-200-g-tin-pack-8549273.png",
+    "desc": "Braysure Mom Chocolate is a maternal nutrition powder for pregnancy and lactation, enriched with protein, DHA, vitamins and minerals.",
+    "features": [
+      "High-quality protein",
+      "DHA",
+      "Vitamins & minerals",
+      "Low-fat formulation"
+    ],
+    "benefits": [
+      "Supports maternal nutrition",
+      "Helps bridge protein gaps",
+      "Supports increased nutritional requirements",
+      "Designed for pregnancy and lactation"
+    ],
+    "use": "The current Braymil guidance suggests adding 2–3 heaped tablespoons to about 200 ml lukewarm or cold milk, mixing well and consuming daily.",
+    "notice": "Use as part of a balanced diet. During pregnancy or lactation, follow your doctor or dietitian’s individual nutrition advice."
+  },
+  {
+    "slug": "mom-vanilla",
+    "title": "Braysure Mom Vanilla",
+    "subtitle": "Maternal nutrition • Pregnancy & lactation",
+    "price": "380",
+    "reviews": 1,
+    "pack": "200 g",
+    "age": "Pregnancy & lactation",
+    "category": "Maternal Nutrition",
+    "image": "braysure-mom-vanilla-flavour-200-gm-tin-pack-7234171.png",
+    "desc": "Braysure Mom Vanilla is a maternal nutrition supplement developed for pregnancy and lactation with protein, DHA, vitamins and minerals.",
+    "features": [
+      "Protein",
+      "DHA from algae",
+      "Vitamins & minerals",
+      "Low-fat formulation"
+    ],
+    "benefits": [
+      "Supports maternal nutritional intake",
+      "Supports tissue nutrition",
+      "Supports increased pregnancy/lactation needs",
+      "Designed for daily nutritional support"
+    ],
+    "use": "Use according to pack directions and individual nutritional advice. Combine with a varied diet and appropriate prenatal or postnatal care.",
+    "notice": "Use as part of a balanced diet. During pregnancy or lactation, follow your doctor or dietitian’s individual nutrition advice."
+  }
+]

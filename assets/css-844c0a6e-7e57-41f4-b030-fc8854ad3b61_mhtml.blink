@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+#shopify-section-header .header__icon { background-color: rgb(0, 125, 117); }
+
+#shopify-section-header .menu-lnk a:hover { color: rgb(0, 204, 191); }

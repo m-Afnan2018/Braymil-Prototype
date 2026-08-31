@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Braymil Knowledge Centre | Baby Nutrition & Parenting Guides</title>
+<meta name="description" content="Explore Braymil's knowledge centre for practical, science-led reading on infant nutrition, complementary feeding, maternal nutrition and child development.">
+<style>
+:root{
+  --teal:#00ccbf; --teal-dark:#087d77; --navy:#0b1f45; --ink:#12213b; --muted:#66758b;
+  --line:#dfe8ee; --soft:#f5fbfb; --sky:#eaf8f8; --white:#fff; --pink:#ef5b9c;
+  --shadow:0 18px 55px rgba(20,48,75,.09); --radius:20px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+a{text-decoration:none;color:inherit} img{display:block;max-width:100%} button,input{font:inherit}
+.container{width:min(1220px,calc(100% - 48px));margin-inline:auto}
+.utility{background:var(--navy);color:#e7eff8;font-size:12px}
+.utility .container{height:36px;display:flex;align-items:center;justify-content:space-between;gap:20px}.utility b{color:#fff}.utility-right{display:flex;gap:20px}
+.header{height:82px;border-bottom:1px solid #e6edf2;background:#fff;position:sticky;top:0;z-index:50}.header .container{height:100%;display:flex;align-items:center;gap:30px}
+.brand{display:flex;align-items:center;gap:10px;min-width:205px}.brand img{width:44px;height:44px;object-fit:contain}.brand-copy{display:flex;flex-direction:column;line-height:1}.brand-copy b{font-size:25px;letter-spacing:-.045em;color:var(--teal)}.brand-copy small{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:#6b788a;margin-top:6px}
+.nav{display:flex;align-items:center;gap:26px;margin-left:auto;font-size:14px;font-weight:700;color:#304158}.nav a:hover,.nav a.active{color:var(--teal-dark)}
+.header-actions{display:flex;gap:9px}.round{width:41px;height:41px;border:1px solid var(--line);border-radius:12px;display:grid;place-items:center;background:#fff}.round svg{width:19px;height:19px;stroke:var(--navy);fill:none;stroke-width:1.8}
+.hero{background:linear-gradient(135deg,#f0fbfb 0%,#fff 54%,#f7fbff 100%);border-bottom:1px solid #eaf0f4;padding:72px 0 54px;overflow:hidden}.hero .container{position:relative}.hero .container:after{content:"";position:absolute;right:-50px;top:-160px;width:410px;height:410px;border:70px solid rgba(0,204,191,.06);border-radius:50%;pointer-events:none}
+.breadcrumb{font-size:12px;font-weight:700;color:#7b8798;margin-bottom:25px}.breadcrumb span{margin:0 8px;color:#adb7c3}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.6fr);gap:70px;align-items:end}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--teal-dark);font-weight:850;font-size:12px;text-transform:uppercase;letter-spacing:.12em}.eyebrow:before{content:"";width:24px;height:2px;background:var(--teal)}
+h1{font-size:58px;letter-spacing:-.055em;line-height:1.03;margin:14px 0 18px;max-width:730px}.hero-copy{font-size:18px;color:var(--muted);max-width:680px;margin:0}
+.hero-tools{position:relative;z-index:2}.searchbox{height:55px;border:1px solid #cddce2;border-radius:14px;background:#fff;display:flex;align-items:center;padding:0 16px;box-shadow:0 8px 28px rgba(16,47,67,.05)}.searchbox svg{width:20px;height:20px;stroke:#7c8b9b;fill:none;stroke-width:1.8;flex:0 0 auto}.searchbox input{border:0;outline:0;width:100%;font-size:14px;padding:0 10px;color:var(--ink)}.hero-tools p{font-size:12px;color:#77869a;margin:10px 2px 0}
+.category-bar{border-bottom:1px solid var(--line);background:#fff;position:sticky;top:82px;z-index:40}.category-bar .container{height:64px;display:flex;align-items:center;gap:8px;overflow-x:auto;scrollbar-width:none}.category-bar .container::-webkit-scrollbar{display:none}.chip{border:1px solid var(--line);background:#fff;color:#41516a;height:36px;padding:0 15px;border-radius:999px;font-size:12px;font-weight:800;white-space:nowrap;cursor:pointer}.chip:hover,.chip.active{background:var(--navy);border-color:var(--navy);color:#fff}
+.featured{padding:56px 0 34px}.section-title{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:23px}.section-title h2{font-size:30px;letter-spacing:-.035em;margin:0}.section-title a{font-size:13px;font-weight:800;color:var(--teal-dark)}
+.featured-grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(330px,.72fr);gap:24px}.lead-story{min-height:490px;border-radius:24px;overflow:hidden;position:relative;background:#17233b;color:#fff;box-shadow:var(--shadow)}.lead-story img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.lead-story:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,18,38,.05),rgba(4,18,38,.15) 32%,rgba(4,18,38,.92) 100%)}.lead-copy{position:absolute;left:0;right:0;bottom:0;padding:38px;z-index:2}.tag{display:inline-flex;align-items:center;height:27px;padding:0 10px;border-radius:999px;background:rgba(0,204,191,.14);color:#007d76;font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}.lead-story .tag{background:#fff;color:#087d77}.lead-copy h3{font-size:34px;line-height:1.14;letter-spacing:-.035em;margin:13px 0 12px;max-width:750px}.lead-copy p{color:#dce7ee;margin:0 0 18px;max-width:710px}.meta{display:flex;align-items:center;gap:9px;font-size:11px;color:#8492a4;font-weight:700}.lead-story .meta{color:#d7e0e8}.meta .dot{width:3px;height:3px;border-radius:50%;background:currentColor}
+.latest-panel{border:1px solid var(--line);border-radius:22px;padding:24px;background:#fff}.latest-panel h3{font-size:17px;margin:0 0 7px}.latest-panel>p{font-size:12px;color:var(--muted);margin:0 0 14px}.mini-story{display:grid;grid-template-columns:92px 1fr;gap:13px;padding:15px 0;border-top:1px solid #ebf0f3}.mini-story:first-of-type{border-top:0}.mini-story img{width:92px;height:76px;border-radius:11px;object-fit:cover;background:#eef5f5}.mini-story .tag{height:auto;padding:0;background:transparent;border-radius:0;font-size:9px}.mini-story h4{font-size:13px;line-height:1.35;margin:5px 0 5px;letter-spacing:-.015em}.mini-story time{font-size:10px;color:#8a96a6}
+.content{padding:42px 0 90px}.content-grid{display:grid;grid-template-columns:210px minmax(0,1fr) 270px;gap:34px;align-items:start}.side{position:sticky;top:166px}.side-card{border:1px solid var(--line);border-radius:18px;background:#fff;padding:19px}.side-card+.side-card{margin-top:18px}.side-title{font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.07em;margin-bottom:12px;color:#263851}.topic-link{display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-top:1px solid #edf1f3;font-size:12px;color:#536278;font-weight:700}.topic-link:first-of-type{border-top:0}.topic-link span:last-child{font-size:10px;background:#f2f6f7;border-radius:99px;padding:3px 7px;color:#7d8999}.topic-link:hover{color:var(--teal-dark)}
+.editorial-note{background:var(--navy);color:#fff}.editorial-note .side-title{color:#87e2de}.editorial-note p{font-size:12px;color:#d8e3ef;line-height:1.6;margin:0}.editorial-note a{display:inline-flex;margin-top:14px;color:#7ce0da;font-size:11px;font-weight:800}
+.feed-head{display:flex;align-items:end;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:6px}.feed-head h2{font-size:25px;letter-spacing:-.03em;margin:0}.feed-count{font-size:11px;color:#8591a1}
+.article-row{display:grid;grid-template-columns:220px 1fr;gap:22px;padding:24px 0;border-bottom:1px solid #e8edf0}.article-row img{width:220px;height:142px;border-radius:16px;object-fit:cover;background:#f2f6f7}.article-row h3{font-size:20px;line-height:1.25;letter-spacing:-.025em;margin:8px 0 8px}.article-row p{font-size:13px;color:var(--muted);margin:0 0 13px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}.read-link{font-size:11px;font-weight:900;color:var(--teal-dark);display:inline-flex;gap:6px;align-items:center}.read-link:hover{gap:10px}.load-more{margin:30px auto 0;height:44px;padding:0 22px;border:1px solid #b9ccd2;border-radius:999px;background:#fff;color:var(--navy);font-size:12px;font-weight:900;display:flex;align-items:center;gap:8px;cursor:pointer}.load-more:hover{border-color:var(--teal);color:var(--teal-dark)}
+.most-read{counter-reset:rank}.rank-item{counter-increment:rank;display:grid;grid-template-columns:32px 1fr;gap:8px;padding:13px 0;border-top:1px solid #edf1f3}.rank-item:first-of-type{border-top:0}.rank-item:before{content:counter(rank,decimal-leading-zero);font-size:14px;font-weight:900;color:#9aa8b7}.rank-item a{font-size:12px;font-weight:750;line-height:1.45}.rank-item a:hover{color:var(--teal-dark)}
+.help-card{background:linear-gradient(150deg,#eafafa,#fff);border-color:#cdeeed}.help-icon{width:44px;height:44px;border-radius:14px;background:#d7f7f5;display:grid;place-items:center;margin-bottom:12px}.help-icon svg{width:22px;height:22px;stroke:var(--teal-dark);fill:none;stroke-width:1.8}.help-card h3{font-size:16px;margin:0 0 7px}.help-card p{font-size:11px;color:#68798a;margin:0 0 15px}.help-card a{font-size:11px;font-weight:900;color:var(--teal-dark)}
+.stage-reading{background:var(--soft);border-top:1px solid #e7f0f1;padding:70px 0}.stage-reading .section-title{align-items:center}.stage-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.stage-card{min-height:250px;border-radius:20px;overflow:hidden;position:relative;background:#18304a;color:#fff}.stage-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.stage-card:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,28,48,.05),rgba(10,28,48,.82))}.stage-card div{position:absolute;left:19px;right:19px;bottom:18px;z-index:2}.stage-card small{font-size:9px;text-transform:uppercase;letter-spacing:.1em;font-weight:900;color:#91eee8}.stage-card h3{font-size:17px;line-height:1.2;margin:6px 0 5px}.stage-card p{font-size:10px;color:#dce6eb;margin:0}
+.disclaimer{padding:24px 0;border-top:1px solid #e3ecef;background:#fff}.disclaimer .container{display:flex;gap:12px;align-items:flex-start;font-size:11px;color:#6e7e90}.disclaimer svg{width:18px;height:18px;stroke:var(--teal-dark);fill:none;stroke-width:1.8;flex:0 0 auto;margin-top:1px}
+.footer{background:#0b1f45;color:#d9e4ef;padding:54px 0 28px}.footer-grid{display:grid;grid-template-columns:1.35fr repeat(3,1fr);gap:52px}.footer-brand{display:flex;align-items:center;gap:12px}.footer-brand img{width:55px;height:55px;object-fit:contain;background:#fff;border-radius:14px;padding:6px}.footer-brand b{display:block;font-size:23px;color:#fff}.footer-brand span{font-size:10px;color:#90a4b9}.footer p{font-size:11px;line-height:1.65;color:#aebdca;max-width:300px}.footer h4{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#fff;margin:0 0 14px}.footer a{display:block;font-size:11px;color:#b8c8d6;margin:8px 0}.footer a:hover{color:#7de3dd}.copyright{border-top:1px solid rgba(255,255,255,.1);margin-top:38px;padding-top:20px;font-size:10px;color:#8498ac;display:flex;justify-content:space-between;gap:20px}
+.hidden{display:none!important}
+@media(max-width:1050px){.nav{gap:15px}.nav a:nth-child(2),.nav a:nth-child(3){display:none}.featured-grid{grid-template-columns:1fr}.latest-panel{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.latest-panel h3,.latest-panel>p{grid-column:1/-1}.mini-story{display:block;border-top:0;padding:0}.mini-story img{width:100%;height:130px;margin-bottom:9px}.content-grid{grid-template-columns:minmax(0,1fr) 250px}.content-grid>.side:first-child{display:none}.stage-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:760px){.container{width:min(100% - 30px,1220px)}.utility{display:none}.header{height:70px}.nav{display:none}.brand{min-width:0}.header-actions{margin-left:auto}.category-bar{top:70px}.hero{padding:48px 0 35px}.hero-grid{grid-template-columns:1fr;gap:26px}h1{font-size:42px}.hero-copy{font-size:15px}.featured{padding-top:35px}.lead-story{min-height:410px}.lead-copy{padding:24px}.lead-copy h3{font-size:27px}.latest-panel{display:block}.mini-story{display:grid;grid-template-columns:92px 1fr;padding:14px 0;border-top:1px solid #edf1f3}.mini-story img{height:76px;margin:0}.content{padding-top:25px}.content-grid{grid-template-columns:1fr}.content-grid>.side:last-child{position:static;display:grid;grid-template-columns:1fr 1fr;gap:14px}.side-card+.side-card{margin-top:0}.article-row{grid-template-columns:118px 1fr;gap:14px}.article-row img{width:118px;height:105px}.article-row h3{font-size:16px;margin-top:6px}.article-row p{display:none}.stage-grid{grid-template-columns:1fr 1fr}.stage-card{min-height:215px}.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}.copyright{display:block}.copyright span{display:block;margin-top:5px}}
+@media(max-width:480px){.header-actions .round:nth-child(2){display:none}.section-title h2{font-size:25px}.latest-panel{padding:18px}.content-grid>.side:last-child{grid-template-columns:1fr}.stage-grid{grid-template-columns:1fr}.article-row{grid-template-columns:102px 1fr}.article-row img{width:102px;height:96px}.article-row h3{font-size:15px}.tag{font-size:8px}.footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}}
+
+/* ===== Site-wide header & footer (identical on every page) ===== */
+.sw-container{width:min(1200px,calc(100% - 48px));margin-inline:auto}
+.sw-utility{background:#0b1f45;color:#e6efff;font-size:12px}
+.sw-utility .sw-container{height:36px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.sw-utility-left,.sw-utility-right{display:flex;align-items:center;gap:22px}
+.sw-utility strong{color:#fff}
+.sw-utility a{opacity:.9;color:inherit;text-decoration:none}
+.sw-utility-dot{width:4px;height:4px;border-radius:50%;background:#6c86b5}
+.sw-header{height:84px;background:#fff;border-bottom:1px solid #e7edf4;display:flex;align-items:center;position:relative;z-index:5}
+.sw-header .sw-container{display:flex;align-items:center;justify-content:space-between;gap:28px}
+.sw-brand{display:flex;align-items:center;gap:12px;min-width:230px;text-decoration:none;color:inherit}
+.sw-brand-logo{width:50px;height:50px;object-fit:contain;display:block}
+.sw-brand-copy{display:flex;flex-direction:column;line-height:1.05}
+.sw-brand-copy b{font-size:25px;letter-spacing:-.04em;color:#0b1f45}
+.sw-brand-copy small{font-size:10px;text-transform:uppercase;letter-spacing:.09em;color:#6e7b90;margin-top:5px}
+.sw-nav{display:flex;align-items:center;gap:28px;font-size:14px;font-weight:700;color:#263956}
+.sw-nav a{white-space:nowrap;color:inherit;text-decoration:none}
+.sw-nav a:hover{color:#00ccbf}
+.sw-header-actions{display:flex;align-items:center;gap:10px}
+.sw-round-action{width:42px;height:42px;border-radius:12px;border:1px solid #dce5ef;display:grid;place-items:center;background:#fff;position:relative}
+.sw-round-action svg{width:20px;height:20px;stroke:#0b1f45;fill:none;stroke-width:1.8}
+.sw-cart-count{position:absolute;top:-5px;right:-5px;width:18px;height:18px;border-radius:50%;display:grid;place-items:center;background:#ef5b9c;color:#fff;font-size:10px;font-weight:900}
+.sw-footer{background:#07162f;color:#cdd8e8;padding:62px 0 26px}
+.sw-footer a{text-decoration:none}
+.sw-footer-grid{display:grid;grid-template-columns:1.5fr repeat(3,1fr);gap:56px;padding-bottom:45px;border-bottom:1px solid rgba(255,255,255,.12)}
+.sw-footer-brand{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.sw-footer-brand img{width:54px;height:54px;object-fit:contain;opacity:.95}
+.sw-footer-brand b{font-size:23px;color:#fff}
+.sw-footer-brand small{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.08em}
+.sw-footer-about p{font-size:12px;line-height:1.7;margin:0;max-width:360px;color:#aebed2}
+.sw-footer h4{color:#fff;font-size:13px;text-transform:uppercase;letter-spacing:.09em;margin:0 0 17px}
+.sw-footer-links{display:grid;gap:10px;font-size:12px}
+.sw-footer-links a{color:#b8c7da}
+.sw-footer-bottom{display:flex;justify-content:space-between;align-items:center;gap:24px;padding-top:24px;font-size:11px;color:#93a6bf}
+.sw-footer-bottom strong{color:#d6e1ee}
+.sw-socials{display:flex;gap:9px}
+.sw-social{width:34px;height:34px;border-radius:10px;border:1px solid rgba(255,255,255,.16);display:grid;place-items:center;font-weight:800;color:#fff;font-size:12px}
+@media(max-width:1050px){.sw-footer-grid{grid-template-columns:1.4fr 1fr 1fr}.sw-footer-grid>div:last-child{display:none}}
+@media(max-width:720px){.sw-container{width:min(100% - 28px,1200px)}.sw-utility-right{display:none}.sw-utility .sw-container{justify-content:center}.sw-header{height:72px}.sw-brand-logo{width:42px;height:42px}.sw-brand-copy b{font-size:22px}.sw-header-actions .sw-round-action:nth-child(1){display:none}.sw-footer-grid{grid-template-columns:1fr 1fr;gap:36px}.sw-footer-about{grid-column:1/-1}.sw-footer-bottom{display:block}.sw-socials{margin-top:18px}}
+</style>
+</head>
+<body>
+<div class="sw-utility">
+<div class="sw-container">
+<div class="sw-utility-left"><span><strong>Braymil</strong> by Nutribray Healthcare Pvt. Ltd.</span><span class="sw-utility-dot"></span><span>FSSAI Lic. No. 10823005000489</span></div>
+<div class="sw-utility-right"><a href="#hcp">For Healthcare Professionals</a><a href="#support">Nutrition Support</a><a href="#">Track Order</a></div>
+</div>
+</div>
+<header class="sw-header">
+<div class="sw-container">
+<a class="sw-brand" href="index.html">
+<img alt="Nutribray logo" class="sw-brand-logo" src="assets/00000084-Nutribray_Logo-1-removebg-preview_d4c3d469-e73e-47bd-9353-03df65c996d9.png"/>
+<span class="sw-brand-copy"><b>Braymil</b><small>Clinical nutrition &middot; Nourishing lives</small></span>
+</a>
+<nav aria-label="Primary navigation" class="sw-nav">
+<a href="products.html">Products</a><a href="index.html#stages">Nutrition by Stage</a><a href="index.html#specialized">Specialized Nutrition</a><a href="blogs.html">Learning Centre</a><a href="index.html#quality">Quality &amp; Science</a><a href="#">About Us</a><a href="prototype-map.html">Sitemap</a>
+</nav>
+<div class="sw-header-actions">
+<a aria-label="Search" class="sw-round-action" href="#"><svg viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></a>
+<a aria-label="Account" class="sw-round-action" href="#"><svg viewbox="0 0 24 24"><circle cx="12" cy="8" r="3.5"></circle><path d="M5 20c.7-4 3-6 7-6s6.3 2 7 6"></path></svg></a>
+<a aria-label="Cart" class="sw-round-action" href="#"><svg viewbox="0 0 24 24"><path d="M3 4h2l2 11h10l2-8H6"></path><circle cx="9" cy="19" r="1"></circle><circle cx="17" cy="19" r="1"></circle></svg><span class="sw-cart-count">0</span></a>
+</div>
+</div>
+</header>
+
+
+<main>
+<section class="hero"><div class="container"><div class="breadcrumb"><a href="index.html">Home</a><span>›</span>Learning Centre</div><div class="hero-grid">
+<div><div class="eyebrow">Braymil Knowledge Centre</div><h1>Clear nutrition guidance for every stage of early growth.</h1><p class="hero-copy">Practical reading for parents and caregivers on infant nutrition, complementary feeding, maternal nutrition and child development—organised to help you find reliable information faster.</p></div>
+<div class="hero-tools" id="search"><div class="searchbox"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><input id="blogSearch" type="search" placeholder="Search articles, nutrients or topics…" aria-label="Search articles"></div><p>Try “DHA”, “0–12 months”, “pregnancy” or “feeding”.</p></div>
+</div></div></section>
+
+<div class="category-bar"><div class="container" id="categoryChips"><button class="chip active" data-category="all">All Articles</button><button class="chip" data-category="infant">Infant Nutrition</button><button class="chip" data-category="feeding">Feeding</button><button class="chip" data-category="maternal">Maternal Nutrition</button><button class="chip" data-category="development">Growth & Development</button><button class="chip" data-category="specialized">Specialized Nutrition</button><button class="chip" data-category="parenting">Parenting Advice</button></div></div>
+
+<section class="featured"><div class="container"><div class="section-title"><h2>Featured reading</h2><a href="#all-articles">Browse all articles →</a></div><div class="featured-grid">
+<a class="lead-story" href="https://braymil.com/blogs/news/what-parents-should-know-about-iron-in-baby-nutrition-during-the-first-year" target="_blank" rel="noopener"><img src="assets/WhatsApp_Image_2026-06-20_at_11.16.08_d5648bae-659a-4fb3-9dab-299545945e8f.jpg" alt="What Parents Should Know About Iron in Baby Nutrition During the First Year"><div class="lead-copy"><span class="tag">Infant Nutrition</span><h3>What Parents Should Know About Iron in Baby Nutrition During the First Year</h3><p>Understand why iron matters during the first year, where it comes from and what parents should discuss with their healthcare professional.</p><div class="meta"><span>Braymil Editorial</span><span class="dot"></span><span>7 min read</span></div></div></a>
+<div class="latest-panel"><h3>Latest from the knowledge centre</h3><p>New and useful reads for parents, caregivers and growing families.</p>
+<a class="mini-story" href="https://braymil.com/blogs/news/essential-nutrients-for-pregnant-mothers" target="_blank" rel="noopener"><img src="assets/WhatsApp_Image_2026-06-03_at_13.48.57_cc5ea34c-90a3-40b3-8468-17070a53cc52.jpg" alt="Essential Nutrients for Pregnant Mothers"><div><span class="tag">Maternal Nutrition</span><h4>Essential Nutrients for Pregnant Mothers</h4><time>03 June 2026</time></div></a>
+<a class="mini-story" href="https://braymil.com/blogs/news/dha-in-infant-formula-why-it-matters-for-baby-brain-development-and-early-learning" target="_blank" rel="noopener"><img src="assets/DHA_in_infant_formula_infographic_highlighting_baby_brain_development_and_early_learning_benefits_by_Nutribray._8ae68a6c-04ec-4bfc-893c-4cdac5e1993f.jpg" alt="DHA in Infant Formula"><div><span class="tag">Growth & Development</span><h4>DHA in Infant Formula: Why It Matters for Baby Brain Development</h4><time>Knowledge guide</time></div></a>
+<a class="mini-story" href="https://braymil.com/blogs/news/how-growing-formula-supports-toddlers-development" target="_blank" rel="noopener"><img src="assets/braymil-baby2.jpg" alt="How Growing Formula Supports Toddlers’ Development"><div><span class="tag">Toddler Nutrition</span><h4>How Growing Formula Supports Toddlers’ Development</h4><time>08 May 2026</time></div></a>
+</div></div></div></section>
+
+<section class="content" id="all-articles"><div class="container"><div class="content-grid">
+<aside class="side"><div class="side-card"><div class="side-title">Explore topics</div><a class="topic-link" href="#" data-filter="infant"><span>Infant Nutrition</span><span>12</span></a><a class="topic-link" href="#" data-filter="feeding"><span>Feeding</span><span>8</span></a><a class="topic-link" href="#" data-filter="development"><span>Growth & Development</span><span>7</span></a><a class="topic-link" href="#" data-filter="maternal"><span>Pregnancy & Mother</span><span>5</span></a><a class="topic-link" href="#" data-filter="specialized"><span>Specialized Nutrition</span><span>6</span></a><a class="topic-link" href="#" data-filter="parenting"><span>Parenting Advice</span><span>9</span></a></div><div class="side-card editorial-note"><div class="side-title">Editorial approach</div><p>Articles are designed as educational resources. Product choice, feeding decisions and specialised nutrition should be discussed with an appropriate healthcare professional.</p><a href="#disclaimer">Read important guidance →</a></div></aside>
+
+<div class="feed"><div class="feed-head"><h2>All articles</h2><span class="feed-count" id="resultCount">10 articles shown</span></div>
+<article class="article-row" data-category="feeding infant" data-search="baby food 0 12 months healthy infant nutrition complementary feeding"><img src="assets/WhatsApp_Image_2026-06-01_at_17.08.05_aba3009e-2aab-4e0b-9512-8f6148a70779.jpg" alt="Baby Food 0–12 Months"><div><span class="tag">Feeding</span><h3>Baby Food 0–12 Months: Step-by-Step Guide to Healthy Infant Nutrition</h3><p>A practical overview of feeding milestones during the first year and how nutrition changes as babies grow.</p><div class="meta"><span>Parent Guide</span><span class="dot"></span><span>8 min read</span></div><a class="read-link" href="https://braymil.com/blogs/news" target="_blank" rel="noopener">Read article →</a></div></article>
+<article class="article-row" data-category="development infant" data-search="dha infant formula brain development early learning"><img src="assets/DHA_in_infant_formula_infographic_highlighting_baby_brain_development_and_early_learning_benefits_by_Nutribray._8ae68a6c-04ec-4bfc-893c-4cdac5e1993f.jpg" alt="DHA in Infant Formula"><div><span class="tag">Growth & Development</span><h3>DHA in Infant Formula: Why It Matters for Baby Brain Development and Early Learning</h3><p>A parent-friendly guide to DHA, early development and the questions to consider when reviewing infant nutrition information.</p><div class="meta"><span>Nutrition Guide</span><span class="dot"></span><span>7 min read</span></div><a class="read-link" href="https://braymil.com/blogs/news" target="_blank" rel="noopener">Read article →</a></div></article>
+<article class="article-row" data-category="maternal" data-search="essential nutrients pregnant mothers pregnancy nutrition vitamins minerals"><img src="assets/WhatsApp_Image_2026-06-03_at_13.48.57_cc5ea34c-90a3-40b3-8468-17070a53cc52.jpg" alt="Essential Nutrients for Pregnant Mothers"><div><span class="tag">Maternal Nutrition</span><h3>Essential Nutrients for Pregnant Mothers</h3><p>Explore the changing nutritional needs of pregnancy and the role of balanced food choices during this important stage.</p><div class="meta"><span>03 June 2026</span><span class="dot"></span><span>9 min read</span></div><a class="read-link" href="https://braymil.com/blogs/news/essential-nutrients-for-pregnant-mothers" target="_blank" rel="noopener">Read article →</a></div></article>
+<article class="article-row" data-category="development feeding" data-search="growing formula toddlers development 1 3 years nutrition"><img src="assets/braymil-baby2.jpg" alt="How Growing Formula Supports Toddlers’ Development"><div><span class="tag">Toddler Nutrition</span><h3>How Growing Formula Supports Toddlers’ Development</h3><p>How nutritional requirements evolve after the first year as toddlers move toward varied family foods and active growth.</p><div class="meta"><span>08 May 2026</span><span class="dot"></span><span>6 min read</span></div><a class="read-link" href="https://braymil.com/blogs/news/how-growing-formula-supports-toddlers-development" target="_blank" rel="noopener">Read article →</a></div></article>
+<article class="article-row" data-category="specialized infant" data-search="mct oil babies benefits safety premature low birth weight digestion"><img src="assets/braymil-mct-oil-100-ml-medium-chain-triglyceride-oil-for-medical-nutritional-use-easily-digestible-energy-source-3373579.jpg" alt="MCT Oil for Babies"><div><span class="tag">Specialized Nutrition</span><h3>MCT Oil for Babies: Benefits, Safety & How to Use It</h3><p>An introduction to medium-chain triglycerides, why they are used in specialised nutrition and why professional guidance matters.</p><div class="meta"><span>23 April 2026</span><span class="dot"></span><span>10 min read</span></div><a class="read-link" href="https://braymil.com/blogs/news/mct-oil-for-babies-benefits-safety-how-to-use-it" target="_blank" rel="noopener">Read article →</a></div></article>
+<article class="article-row" data-category="specialized infant" data-search="low birth weight lbw formula healthy growth preterm babies"><img src="assets/braymil-baby.jpg" alt="LBW Formula and low birth weight babies"><div><span class="tag">Specialized Nutrition</span><h3>How LBW Formula Supports Healthy Growth in Low Birth Weight Babies</h3><p>What parents should know about extra nutritional care for low birth weight babies and the importance of clinical supervision.</p><div class="meta"><span>Clinical Reading</span><span class="dot"></span><span>8 min read</span></div><a class="read-link" href="https://braymil.com/blogs/news/lbw-formula-supports-healthy-growth" target="_blank" rel="noopener">Read article →</a></div></article>
+<article class="article-row" data-category="infant parenting" data-search="signs baby formula allergy sensitive tummy different formula"><img src="assets/braymil-baby3.jpg" alt="Signs a baby may need different nutrition"><div><span class="tag">Parenting Advice</span><h3>What Are the Signs Your Baby Needs a Different Formula?</h3><p>Common concerns parents notice when feeding and why symptoms should be discussed with a pediatric healthcare professional.</p><div class="meta"><span>Parent Guide</span><span class="dot"></span><span>7 min read</span></div><a class="read-link" href="https://braymil.com/blogs/news" target="_blank" rel="noopener">Read article →</a></div></article>
+<article class="article-row" data-category="feeding parenting" data-search="introduce infant cereals safely baby complementary feeding"><img src="assets/Infant-Cereals-braymil.png" alt="Infant cereals"><div><span class="tag">Feeding</span><h3>How to Introduce Infant Cereals Safely to Your Baby</h3><p>A simple guide to complementary feeding, texture progression and establishing a calm feeding routine.</p><div class="meta"><span>Feeding Guide</span><span class="dot"></span><span>6 min read</span></div><a class="read-link" href="https://braymil.com/blogs/news" target="_blank" rel="noopener">Read article →</a></div></article>
+<article class="article-row" data-category="parenting development" data-search="kangaroo care newborn babies skin to skin parents"><img src="assets/ChatGPT_Image_May_15_2026_04_27_40_PM.png" alt="Kangaroo care and newborn wellbeing"><div><span class="tag">Newborn Care</span><h3>What Is Kangaroo Care? Benefits for Newborn Babies</h3><p>Learn about skin-to-skin contact, why it is used in newborn care and how parents can discuss it with their clinical team.</p><div class="meta"><span>Newborn Guide</span><span class="dot"></span><span>5 min read</span></div><a class="read-link" href="https://braymil.com/blogs/news" target="_blank" rel="noopener">Read article →</a></div></article>
+<article class="article-row" data-category="infant parenting" data-search="best baby formula india simple guide new parents"><img src="assets/Infant_formula_stage_1_Braymil.webp" alt="Infant formula guide"><div><span class="tag">Parent Guide</span><h3>Best Baby Formula in India: A Simple Guide for New Parents</h3><p>Key factors to review when comparing formula products, including age stage, labelling, nutritional information and professional advice.</p><div class="meta"><span>31 March 2026</span><span class="dot"></span><span>9 min read</span></div><a class="read-link" href="https://braymil.com/blogs/news/best-baby-formula-india" target="_blank" rel="noopener">Read article →</a></div></article>
+<button class="load-more" type="button" id="loadMore">More articles <span>↓</span></button>
+</div>
+
+<aside class="side"><div class="side-card most-read"><div class="side-title">Most read</div><div class="rank-item"><a href="https://braymil.com/blogs/news/understanding-the-nutritional-components-of-infant-formula" target="_blank">Understanding the Nutritional Components of Infant Formula</a></div><div class="rank-item"><a href="https://braymil.com/blogs/news/best-baby-formula-india" target="_blank">Best Baby Formula in India: A Simple Guide for New Parents</a></div><div class="rank-item"><a href="https://braymil.com/blogs/news/mct-oil-for-babies-benefits-safety-how-to-use-it" target="_blank">MCT Oil for Babies: Benefits, Safety & How to Use It</a></div><div class="rank-item"><a href="https://braymil.com/blogs/news/how-growing-formula-supports-toddlers-development" target="_blank">How Growing Formula Supports Toddlers’ Development</a></div></div>
+<div class="side-card help-card"><div class="help-icon"><svg viewBox="0 0 24 24"><path d="M12 3a8 8 0 0 0-8 8v4a3 3 0 0 0 3 3h1v-7H6a6 6 0 0 1 12 0h-2v7h2a3 3 0 0 0 3-3v-4a8 8 0 0 0-8-8Z"></path><path d="M16 18c-.7 2-2 3-4 3"></path></svg></div><h3>Need product guidance?</h3><p>Use our product catalogue to explore nutrition solutions by age and nutritional need.</p><a href="products.html">Explore products →</a></div></aside>
+</div></div></section>
+
+<section class="stage-reading"><div class="container"><div class="section-title"><div><span class="eyebrow">Browse by life stage</span><h2 style="margin-top:9px">Start with the stage that matters to you.</h2></div><a href="products.html">View nutrition range →</a></div><div class="stage-grid">
+<a class="stage-card" href="#all-articles"><img src="assets/0-to-6.webp" alt="0 to 6 months"><div><small>Birth–6 months</small><h3>Newborn nutrition & early care</h3><p>Infant feeding, nutrients and newborn wellbeing.</p></div></a>
+<a class="stage-card" href="#all-articles"><img src="assets/6-to-12-months.webp" alt="6 to 12 months"><div><small>6–12 months</small><h3>Complementary feeding</h3><p>Textures, cereals and a changing nutrition routine.</p></div></a>
+<a class="stage-card" href="#all-articles"><img src="assets/12-to-24-months.webp" alt="12 to 24 months"><div><small>12–24 months</small><h3>Toddler growth & development</h3><p>Nutrition for increasingly active little learners.</p></div></a>
+<a class="stage-card" href="#all-articles"><img src="assets/24months.webp" alt="24 months plus"><div><small>24+ months</small><h3>Growing years</h3><p>Balanced family foods and ongoing development.</p></div></a>
+</div></div></section>
+
+<section class="disclaimer" id="disclaimer"><div class="container"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v6M12 7h.01"></path></svg><div><strong>Important:</strong> Braymil’s learning centre is intended for general education and does not replace individual medical advice. Breastfeeding is best for babies. Infant formula and specialised nutritional products should be used in accordance with product labelling and guidance from an appropriate healthcare professional.</div></div></section>
+</main>
+
+<footer class="sw-footer">
+<div class="sw-container">
+<div class="sw-footer-grid">
+<div class="sw-footer-about"><div class="sw-footer-brand"><img alt="Nutribray" src="assets/Nutribray_white_Logo_1_200x.png"/><div><b>Braymil</b><small>by Nutribray Healthcare Pvt. Ltd.</small></div></div><p>Stage-specific infant, child and maternal nutrition information presented with clearer navigation, stronger trust signals and a more professional healthcare pathway.</p></div>
+<div><h4>Explore</h4><div class="sw-footer-links"><a href="products.html">All products</a><a href="index.html#stages">Nutrition by stage</a><a href="index.html#specialized">Specialised nutrition</a><a href="blogs.html">Learning centre</a><a href="index.html#quality">Quality &amp; science</a><a href="product-pages-index.html">Product page prototypes</a><a href="prototype-map.html">Full prototype map</a></div></div>
+<div><h4>Support</h4><div class="sw-footer-links"><a href="#">Contact us</a><a href="#">Shipping &amp; delivery</a><a href="#">Returns &amp; refunds</a><a href="#">Track order</a><a href="#">Frequently asked questions</a></div></div>
+<div><h4>Company</h4><div class="sw-footer-links"><a href="#">About Nutribray</a><a href="#">Healthcare professionals</a><a href="#">Privacy policy</a><a href="#">Terms &amp; conditions</a><a href="#">Cancellation policy</a></div></div>
+</div>
+<div class="sw-footer-bottom"><div><strong>FSSAI Lic. No. 10823005000489</strong> &middot; &copy; 2026 Nutribray Healthcare Pvt. Ltd.</div><div class="sw-socials"><span class="sw-social">f</span><span class="sw-social">ig</span><span class="sw-social">in</span><span class="sw-social">&#9658;</span></div></div>
+</div>
+</footer>
+
+<script>
+const rows=[...document.querySelectorAll('.article-row')];
+const chips=[...document.querySelectorAll('.chip')];
+const search=document.getElementById('blogSearch');
+const count=document.getElementById('resultCount');
+let category='all';
+function applyFilters(){
+  const q=search.value.trim().toLowerCase(); let shown=0;
+  rows.forEach(row=>{const cats=row.dataset.category.split(' '); const text=(row.dataset.search+' '+row.innerText).toLowerCase(); const okCat=category==='all'||cats.includes(category); const okQ=!q||text.includes(q); row.classList.toggle('hidden',!(okCat&&okQ)); if(okCat&&okQ) shown++;});
+  count.textContent=shown+' article'+(shown===1?'':'s')+' shown';
+}
+chips.forEach(chip=>chip.addEventListener('click',()=>{chips.forEach(c=>c.classList.remove('active'));chip.classList.add('active');category=chip.dataset.category;applyFilters();document.getElementById('all-articles').scrollIntoView({behavior:'smooth'});}));
+search.addEventListener('input',applyFilters);
+document.querySelectorAll('[data-filter]').forEach(link=>link.addEventListener('click',e=>{e.preventDefault();category=link.dataset.filter;chips.forEach(c=>c.classList.toggle('active',c.dataset.category===category));applyFilters();document.getElementById('all-articles').scrollIntoView({behavior:'smooth'});}));
+document.getElementById('loadMore').addEventListener('click',()=>{window.open('https://braymil.com/blogs/news','_blank');});
+</script>
+</body>
+</html>
