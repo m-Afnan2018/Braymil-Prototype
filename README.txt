@@ -1,9 +1,9 @@
-BRAYMIL COMPLETE WEBSITE PROTOTYPE
+NUTRIBRAY COMPLETE WEBSITE PROTOTYPE
 
 Start here:
 - index.html                Main homepage
 - products.html             All Products page
-- braymil-1.html            Long-form Braymil 1 product page
+- braymil-1.html            Long-form Nutribray 1 product page
 - blogs.html                Blogs / Knowledge Centre
 - prototype-map.html        Prototype navigation map
 
